@@ -1,13 +1,13 @@
 {
-  "name": "nodejs-getting-started",
-  "description": "End to end sample for running Node.js applications on Google Cloud Platform",
+  "name": "FrontendWorld",
+  "description": "Application demonstrating multiple frontend module",
   "version": "1.0.0",
-  "license": "Apache-2.0",
-  "author": "Google Inc.",
+  "license": "UNLICENSED",
+  "author": "Vijay Singh",
   "engines": {
     "node": ">=8"
   },
-  "repository": "https://github.com/GoogleCloudPlatform/nodejs-getting-started",
+  "repository": "https://github.com/vijay-kumar-singh/FrontendWorld",
   "main": "app.js",
   "private": true,
   "cloud-repo-tools": {
