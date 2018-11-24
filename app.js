@@ -6,7 +6,8 @@ const path = require('path');
 const app = express();
 //app.use(express.static(path.join(__dirname, 'angularApp/dist/')));
 app.get('/', (req, res) => {
-  res.status(200).send('Hello, vijay singh!');
+  app.use(express.static(path.join(__dirname, 'home')));
+  res.sendFile(path.join(__dirname, 'home', 'index.html'));
 });
 app.get('/reactjs', (req, res) => {
   app.use(express.static(path.join(__dirname, 'reactapp/build')));
