@@ -9,6 +9,10 @@ app.get('/', (req, res) => {
   app.use(express.static(path.join(__dirname, 'home')));
   res.sendFile(path.join(__dirname, 'home', 'index.html'));
 });
+app.get('/aks', (req, res) => {
+  app.use(express.static(path.join(__dirname, 'aksfoundation')));
+  res.sendFile(path.join(__dirname, 'aksfoundation', 'index.html'));
+});
 app.get('/reactjs', (req, res) => {
   app.use(express.static(path.join(__dirname, 'reactapp/build')));
   res.sendFile(path.join(__dirname, 'reactapp/build', 'index.html'));
